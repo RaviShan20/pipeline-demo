@@ -4,7 +4,7 @@ node() {
       
       git 'https://github.com/devopsguru91/simple-maven-project-with-tests'
                 
-      mvnHome = tool 'M3'
+      mvnHome = tool 'Maven3'
    }
    stage('Build') {
       
